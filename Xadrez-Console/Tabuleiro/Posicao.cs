@@ -17,5 +17,12 @@ namespace Tabuleiro
             this.coluna = coluna;
         }
 
+        public override string ToString()
+        {
+            return linha
+                + ","
+                + coluna;
+        }
+
     }
 }
