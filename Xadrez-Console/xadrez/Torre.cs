@@ -49,7 +49,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.linha = pos.coluna + 1;
+                pos.coluna = pos.coluna + 1;
             }
 
             //verifica sudeste
@@ -80,7 +80,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.linha = pos.coluna - 1;
+                pos.coluna = pos.coluna - 1;
             }
 
 
