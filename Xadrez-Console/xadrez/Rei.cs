@@ -7,7 +7,7 @@ namespace xadrez
     {
         private PartidaDeXadrez partida;
 
-        public Rei(Tabuleiro tab, Cor cor, PartidaDeXadrez Partida) : base(tab, cor)
+        public Rei(Tabuleiro tab, Cor cor, PartidaDeXadrez partida) : base(tab, cor)
         {
             this.partida = partida;
         }
@@ -91,7 +91,7 @@ namespace xadrez
             }
 
             // Verificar o Roque
-            if (qteMovimentos == 0 && !partida.xeque)
+            if (qteMovimentos==0 && !partida.xeque)
             {
                 //Roque Pequeno
                 Posicao posT1 = new Posicao(posicao.linha, posicao.coluna + 3);
