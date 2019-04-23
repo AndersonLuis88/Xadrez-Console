@@ -12,9 +12,7 @@ namespace xadrez_console
             imprimirTabuleiro(partida.tab);
             Console.WriteLine();
             imprimirPecasCapturadas(partida);
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine();     
             Console.WriteLine("Turno: " + partida.turno);
             if (!partida.terminada) { 
 
